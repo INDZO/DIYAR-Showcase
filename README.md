@@ -19,7 +19,10 @@ A public website for exploring properties for sale and rent in Novi Pazar, paire
 
 ## How it fits together
 
-![DIYAR’s public listing experience, protected administration, and server-side data, media and translation services](assets/system-view.svg)
+<picture>
+  <source media="(max-width: 560px)" srcset="assets/system-view-mobile.svg">
+  <img src="assets/system-view.svg" width="920" alt="DIYAR’s public listing experience, protected administration, and server-side data, media and translation services">
+</picture>
 
 **Next.js · TypeScript · Drizzle ORM · PostgreSQL · Gemini**
 
